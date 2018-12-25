@@ -3,15 +3,7 @@
     xmlns:sqf="http://www.schematron-quickfix.com/validator/process" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     
     <sch:title>UA Business Rules</sch:title>
-<!-- Date: 27 AUG 2018 Developer: Scott Hudson -->
-<!-- Note: The business rules listed below are not implemented via DTDs. -->
-<!--
-        Severities				
-        1 = error =       Unacceptable	  Must be fixed before checking in the file.
-        2 = warning =  Severe	      Must be fixed before composing a review draft.
-        3 = warning =  Minimal	      Must be fixed before releasing to the public.
-        4 = warning =  Non-optimum	  Should be fixed before releasing to the public.
-    -->
+
 
 <!-- UA business rules -->
 <sch:let name="approvers" value="document('IATable.xml')" />
